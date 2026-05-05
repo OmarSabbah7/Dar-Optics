@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: #f6f6f6;
+}
+
+/* 🔶 Header */
+.header {
+    background: linear-gradient(135deg, #f47c20, #ff9a3c);
+    color: white;
+    text-align: center;
+    padding: 40px 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.header p {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* 🔶 Section */
+.section {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #f47c20;
+    margin-bottom: 20px;
+}
+
+/* 📍 Branches Grid */
+.branches {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* 🧾 Branch Card */
+.branch {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.branch:hover {
+    transform: translateY(-5px);
+}
+
+.branch h3 {
+    margin: 0;
+}
+
+/* 🔘 Buttons */
+.branch a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #f47c20;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.branch a:hover {
+    background: #d8651c;
+}
+
+/* 📱 Social */
+.social a {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 220px;
+    background: #f47c20;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    background: #d8651c;
+}
+
+/* 📞 Contact */
+.contact p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* 🟢 WhatsApp Button */
+.whatsapp {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    background: #1ebe5d;
+}
